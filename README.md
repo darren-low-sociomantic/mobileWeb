@@ -1,6 +1,6 @@
 # mobileWeb
 
-This simple example of mobile web shows how to integrate the appkit for a non-native app, yet keep the original JS tracking codes for mobile campaigns.
+This simple mobile web shows how to integrate our appkit for a non-native app, yet keep the original JS tracking codes for mobile campaigns.
 
 If you are going to pull this project for local test, please remember to define the server location and token in js/config.js
 
@@ -10,6 +10,8 @@ Example:
 server = "eu-sonar";
 token = "12345-eu";
 ```
+
+Please change the below java object name "android" to the object name you defined in the addJavascriptInterface method
 
 #### Example of using JavascriptInterface methods on homepage
 
@@ -25,7 +27,6 @@ token = "12345-eu";
 
 	} else {
 
-		// remember to change your server location and token ID
 	    (function(){
 	        var s   = document.createElement('script');
 	        var x   = document.getElementsByTagName('script')[0];
@@ -63,7 +64,6 @@ token = "12345-eu";
 	        category: categoryPath
 	    };
 
-	    // remember to change your server location and token ID
 	    (function(){
 	        var s   = document.createElement('script');
 	        var x   = document.getElementsByTagName('script')[0];
@@ -108,7 +108,6 @@ token = "12345-eu";
 
 	} else {
 
-	    // remember to change your server location and token ID
 	    (function(){
 	        var s   = document.createElement('script');
 	        var x   = document.getElementsByTagName('script')[0];
@@ -146,7 +145,6 @@ token = "12345-eu";
 
 	} else {
 
-	    // remember to change your server location and token ID
 	    (function(){
 	        var s   = document.createElement('script');
 	        var x   = document.getElementsByTagName('script')[0];
@@ -187,7 +185,6 @@ token = "12345-eu";
 
 	} else {
 
-	    // remember to change your server location and token ID
 	    (function(){
 	        var s   = document.createElement('script');
 	        var x   = document.getElementsByTagName('script')[0];
