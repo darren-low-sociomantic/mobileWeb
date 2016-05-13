@@ -55,7 +55,7 @@ Please change the below java object name "android" to the object name you define
 	if (typeof android != "undefined") {
 
 		var categories = categoryPath;
-		var categoryList = categories.toString(); // Convert the array to string for JSinterface readibility
+		var categoryList = categories.toString(); // Convert the array to string for JSinterface-readable
 		android.reportSociomanticCategoryView(categoryList);
 
 	} else {
@@ -103,7 +103,7 @@ Please change the below java object name "android" to the object name you define
 
 	if (typeof android != "undefined") {
 
-		var product = JSON.stringify(product); // Convert the object to string for JSinterface readibility
+		var product = JSON.stringify(product); // Convert the object to string for JSinterface-readable
 		android.reportSociomanticProductView(product);
 
 	} else {
@@ -140,7 +140,7 @@ Please change the below java object name "android" to the object name you define
 
 	if (typeof android != "undefined") {
 
-		var basketStr = JSON.stringify(basket); // Convert the object to string for JSinterface readibility
+		var basketStr = JSON.stringify(basket); // Convert the object to string for JSinterface-readable
 		android.reportSociomanticBasketView(basketStr);
 
 	} else {
@@ -180,7 +180,7 @@ Please change the below java object name "android" to the object name you define
 
 	if (typeof android != "undefined") {
 
-		var basketStr = JSON.stringify(basket); // Convert the object to string for JSinterface readibility
+		var basketStr = JSON.stringify(basket); // Convert the object to string for JSinterface-readable
 		android.reportSociomanticTransactionView(basketStr);
 
 	} else {
